@@ -1,0 +1,10 @@
+name: "Bun Reproduction Action"
+description: "Reproduce GitHub Issues code blocks in bun"
+branding:
+  icon: "life-buoy"
+  color: "purple"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - "foo"
